@@ -33,7 +33,7 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           context: .
-          tags: ghcr.io/schwankner/mmda-vila-pdf2text:latest
+          tags: ghcr.io/schwankner/pdf2text:latest
           push: true
           platforms: linux/amd64,linux/arm64
 
